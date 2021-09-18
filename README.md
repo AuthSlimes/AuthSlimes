@@ -9,7 +9,7 @@ I created program that generates the precious Slime. Each slime we create has th
 For each BitSlime that gets created by the BitSlime generator, it creates an [RSA Keypair](http://people.csail.mit.edu/rivest/Rsapaper.pdf) with a key size of 2048 bits. It then creates a CSR, defining the BitSlime's full name and Slime ID. It places those values in the Common Name field of the CSR - `CN = fullname:slime_id`.
 It then submits the CSR to the Slime Signing Intermediate CA, which is Intermediate Certificate Authority using a prime256v1 (ASN.1) ECC keypair. The Slime Signing Intermediate CA signs/issues an X509v3 end-entity certificate according to the values in the CSR. It signs using ecdsa-with-SHA256. These certificates authenticate each BitSlime in the Slime database which prevents any forged slimes. If you own a BitSlime, you can look up its fullname/slime ID in the Certificates folder and decode it using openssl (`openssl x509 -in BitSlimeCertificate.pem -noout -text`) or an [online decoder](https://decoder.link/result). In addition, each BitSlime has the signature embedded in the picture so you can compare it with the signature on the certificate. Please check out the Cryptography section for more information about checking validation for the BitSlimes.
 
-### 2. Randomly generated name. 
+### 2. Randomly generated name
 
 Each BitSlime has a semi-random name. They often come up really slime sounding. For instance, how does "Lorx Roqwkdl" not sound like a slime name? ;) Here is how the names are generated.
 
@@ -20,7 +20,7 @@ Each BitSlime has a semi-random name. They often come up really slime sounding. 
 	name = firstletter + secondletter + rest
 	
 
-### 3. Randomly generated color. 
+### 3. Randomly generated color
 We generate a random color for the BitSlime.  
 
 ### 4. Unique Slime ID
