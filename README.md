@@ -51,7 +51,7 @@ The Signature attribute can we found in the decoded AuthSlime certificate. Look 
 
 ### How to verify the AuthSlime Certificate was signed by our Intermediate CA (Slime Signing Intermediate CA)
 
-You can use the Certificate chain (the Intermediate and Root CA Certificates) to do this with openssl. The CA chain is found [here](https://raw.githubusercontent.com/AuthSlimes/AuthSlimes/main/Slime_Certificate_Authority/CA_Chain.pem)
+You can use the Certificate chain (the Intermediate and Root CA Certificates) to do this with openssl. The CA chain is found [here](https://raw.githubusercontent.com/AuthSlimes/AuthSlime/main/Slime_Certificate_Authority/CA_Chain.pem)
 
 `openssl verify -CAfile CA_chain.pem AuthSlimeCertificate.pem`
 
@@ -59,7 +59,7 @@ You can also use the decoder [here](https://decoder.link/ca_matcher).  Just reme
 
 Here are the links to the CAs. You can also check out the Slime_Certificate_Authority directory in this repo.
 
-[Intermediate CA](https://raw.githubusercontent.com/AuthSlimes/AuthSlime_Project/main/Slime_Certificate_Authority/IntermediateCA.pem)
+[Intermediate CA](https://raw.githubusercontent.com/AuthSlimes/AuthSlime/main/Slime_Certificate_Authority/IntermediateCA.pem)
 
     Signature Algorithm: ecdsa-with-SHA256
         Issuer: C = US, CN = Slime Root CA
@@ -74,7 +74,7 @@ Here are the links to the CAs. You can also check out the Slime_Certificate_Auth
                 NIST CURVE: P-256
 
 
-[RootCA](https://raw.githubusercontent.com/AuthSlimes/AuthSlime_Project/main/Slime_Certificate_Authority/RootCA.pem)
+[RootCA](https://raw.githubusercontent.com/AuthSlimes/AuthSlime/main/Slime_Certificate_Authority/RootCA.pem)
 
  
     Signature Algorithm: ecdsa-with-SHA256
