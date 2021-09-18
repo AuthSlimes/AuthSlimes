@@ -1,6 +1,6 @@
 # Welcome to the BitSlime Project
 
-The BitSlime Project is focused on generating random, cryptographically validated Slime.
+The BitSlime Project is focused on generating random, cryptographically validated BitSlime.
 
 I created program that generates the precious Slime. Each slime we create has these attributes:
 
