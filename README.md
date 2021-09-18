@@ -45,7 +45,7 @@ The Signature attribute can we found in the decoded BitSlime certificate. Look t
 
 ### How to verify the BitSlime Certificate was signed by our Intermediate CA (Slime Signing Intermediate CA)
 
-You can use the Certificate chain (the Intermediate and Root CA Certificates) to do this with openssl.
+You can use the Certificate chain (the Intermediate and Root CA Certificates) to do this with openssl. The CA chain is found [here](https://raw.githubusercontent.com/BitSlimes/BitSlimes/main/Slime_Certificate_Authority/CA_Chain.pem)
 
 `openssl verify -CAfile CA_chain.pem BitSlimeCertificate.pem`
 
