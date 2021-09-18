@@ -1,6 +1,13 @@
 # Welcome to the AuthSlime Project
 
-The AuthSlime Project is focused on generating random, cryptographically validated AuthSlime.
+OpenSea NFTs 
+
+Address:0x2a6761e1742309c89a2d1196e49700912ee4cd49
+https://opensea.io/assets?search[query]=AuthSlime
+
+Version 1- AuthSlime https://opensea.io/collection/version-1-v1-authslime
+
+The AuthSlime Project is focused on generating random, cryptographically validated AuthSlime. They are available for sale on Opensea.io.
 
 I created program that generates the precious Slime. Each slime we create has these attributes:
 
