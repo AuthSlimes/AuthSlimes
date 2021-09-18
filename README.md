@@ -9,7 +9,7 @@ Version 1- AuthSlime https://opensea.io/collection/version-1-v1-authslime
 
 The AuthSlime Project is focused on generating random, cryptographically validated AuthSlime. They are available for sale on Opensea.io.
 
-I created program that generates the precious Slime. Each slime we create has these attributes:
+The AuthSlime Project is backed by a program that generates the precious Slime. Each slime we create has these attributes:
 
 ### 1. X509v3 Certificates
 
