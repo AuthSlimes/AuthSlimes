@@ -36,7 +36,7 @@ More AuthSlime attributes to come in later versions of slime!
 
 ## Example
 
-![Lorx_Roqwkd](https://raw.githubusercontent.com/AuthSlimes/AuthSlime_Project/main/etc/Lorx_Roqwkd_definitions.png)
+![Lorx_Roqwkd](https://github.com/AuthSlimes/AuthSlime/blob/main/AuthSlime_definitions.png?raw=true)
 
 
 The Signature attribute can we found in the decoded AuthSlime certificate. Look towards the bottom in the Signature Algorithm field. The Signature in the AuthSlime picture should be the same, except for the ":" characters. For example, this is Lorx's signature.
