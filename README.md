@@ -35,8 +35,13 @@ More BitSlime attributes to come in later versions of slime!
 
 ### How to verify the BitSlime Certificate was signed by our Intermediate CA (Slime Signing Intermediate CA)
 
+You can use the Certificate chain (the Intermediate and Root CA Certificates) to do this with openssl.
 
+`openssl verify -CAfile CA_chain.pem BitSlimeCertificate.pem`
 
+You can also use the decoder [here](https://decoder.link/ca_matcher).  Just remember to place the intermediate certificate as the CA Certificate and the BitSlime certificate as the end-entity.
+
+Here are the links to the CAs. You can also check out the Slime_Certificate_Authority directory in this repo.
 
 [Intermediate CA](https://raw.githubusercontent.com/BitSlimes/BitSlime_Project/main/Slime_Certificate_Authority/IntermediateCA.pem)
 
