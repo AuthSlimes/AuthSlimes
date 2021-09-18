@@ -1,8 +1,7 @@
 # Welcome to the AuthSlime Project
+## OpenSea NFTs 
+*Address: 0x2a6761e1742309c89a2d1196e49700912ee4cd49*
 
-OpenSea NFTs 
-
-Address:0x2a6761e1742309c89a2d1196e49700912ee4cd49
 https://opensea.io/assets?search[query]=AuthSlime
 
 Version 1- AuthSlime https://opensea.io/collection/version-1-v1-authslime
