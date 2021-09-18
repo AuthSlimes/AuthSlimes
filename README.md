@@ -4,7 +4,7 @@
 
 https://opensea.io/assets?search[query]=AuthSlime
 
-Version 1- AuthSlime https://opensea.io/collection/version-1-v1-authslime
+Version 1- AuthSlime: https://opensea.io/collection/version-1-v1-authslime
 
 The AuthSlime Project is focused on generating random, cryptographically validated AuthSlime. They are available for sale on Opensea.io.
 
