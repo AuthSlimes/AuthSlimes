@@ -12,7 +12,7 @@ The AuthSlime Project is backed by a program that generates the precious Slime. 
 
 ### 1. X509v3 Certificates
 
-For each AuthSlime that gets created by the AuthSlime generator, it creates an [RSA Keypair](http://people.csail.mit.edu/rivest/Rsapaper.pdf) with a key size of 2048 bits. It then creates a CSR, defining the AuthSlime's full name and Slime ID. It places those values in the Common Name field of the CSR - `CN = fullname:slime_id`.
+For each AuthSlime that gets created by the AuthSlime generator, it creates an [RSA Keypair](http://people.csail.mit.edu/rivest/Rsapaper.pdf) with a key size of 2048 bits. It then creates a CSR, defining the AuthSlime's full name, Slime ID and color. It places those values in the Common Name field of the CSR - `CN = fullname:slime_id:color`.
 It then submits the CSR to the Slime Signing Intermediate CA, which is Intermediate Certificate Authority using a prime256v1 (ASN.1) ECC keypair. The Slime Signing Intermediate CA signs/issues an X509v3 end-entity certificate according to the values in the CSR. It signs using ecdsa-with-SHA256. These certificates authenticate each AuthSlime in the Slime database which prevents any forged slimes. If you own a AuthSlime, you can look up its fullname/slime ID in the Certificates folder and decode it using openssl (`openssl x509 -in AuthSlimeCertificate.pem -noout -text`) or an [online decoder](https://decoder.link/result). In addition, each AuthSlime has the signature embedded in the picture so you can compare it with the signature on the certificate. Please check out the Cryptography section for more information about checking validation for the AuthSlimes.
 
 ### 2. Randomly generated name
