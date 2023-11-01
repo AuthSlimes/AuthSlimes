@@ -1,6 +1,9 @@
 # Welcome to the AuthSlime Project
 
-The AuthSlime Project is focused on generating random, cryptographically validated AuthSlime. They are available for sale on Opensea.io.
+The AuthSlime Project is focused on generating random, cryptographically validated AuthSlime.
+
+**This is the classic project for demostration, new Authslime project is in the works**
+
 
 The AuthSlime Project is backed by a program that generates the precious Slime. Each slime we create has these attributes:
 
